@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  overflow-wrap: break-word !important;
+  word-break: break-all !important;
+  word-spacing: normal !important;
+}
+
 html {
   scroll-behavior: smooth;
-  overflow-wrap: break-word;
-  word-break: break-word;
+  overflow-wrap: break-word !important;
+  word-break: break-all !important;
 }
 
 body {
@@ -21,7 +27,7 @@ body {
 @layer utilities {
   .break-words {
     overflow-wrap: break-word;
-    word-break: break-word;
+    word-break: break-all;
   }
 }
 
