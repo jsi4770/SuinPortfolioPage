@@ -21,7 +21,7 @@ export default function Hero({ site, social }) {
         <h1 className="text-display-sm md:text-display-lg font-display font-bold text-ink-900 mb-4">
           {localize(site.name, language)}
           {t('hero.nameSuffix') && (
-            <span className="font-body font-semibold text-accent-600 text-sm md:text-base ml-2 align-middle">
+            <span className="font-body font-semibold text-accent-600 text-sm md:text-base ml-2 align-baseline">
               {t('hero.nameSuffix').trim()}
             </span>
           )}
