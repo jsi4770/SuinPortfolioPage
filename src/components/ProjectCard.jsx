@@ -133,7 +133,7 @@ export default function ProjectCard({ item }) {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
                     >
-                      {link.title}
+                      {localize(link.title, language)}
                       <svg
                         className="w-3 h-3"
                         fill="none"

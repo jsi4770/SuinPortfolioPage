@@ -10,7 +10,12 @@ type: "conference"
 venue: "한국융합신호처리학회 춘계 학술대회"
 thumbnail: "/images/academics/immigration-conference-thumb.png"
 tech_stack: ["Python", "BART-Large-MNLI", "RoBERTa", "Pandas"]
-links: [https://kicsp.or.kr/view.php?bbs_id=sub_notice&page=&mu=&kmu=&m_mobile=&cntry=&doc_num=31]
+links:
+  - title:
+      ko: "프로시딩 논문집 링크"
+      en: "Proceedings Paper Link"
+    type: "link"
+    url: "https://kicsp.or.kr/view.php?bbs_id=sub_notice&page=&mu=&kmu=&m_mobile=&cntry=&doc_num=31"
 ---
 
 ## 개요
