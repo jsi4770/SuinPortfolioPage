@@ -93,7 +93,7 @@ export default function ProjectCard({ item }) {
             className="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-8 animate-scale-in"
           >
             <div className="flex justify-between items-start gap-4 mb-4">
-              <h3 className="text-xl md:text-2xl font-display font-bold text-ink-900">
+              <h3 className="text-xl md:text-2xl font-display font-bold text-ink-900 break-words">
                 {title}
               </h3>
               <button
