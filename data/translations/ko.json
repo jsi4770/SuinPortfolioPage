@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "projects": "프로젝트",
+    "academics": "학술",
+    "activities": "대외활동",
+    "about": "소개"
+  },
+  "hero": {
+    "greeting": "안녕하세요,",
+    "role": "소프트웨어 & 학술 포트폴리오",
+    "ctaProjects": "프로젝트 보기",
+    "ctaContact": "연락하기"
+  },
+  "sections": {
+    "projects": "프로젝트",
+    "academics": "학술 활동",
+    "activities": "대외활동",
+    "about": "소개",
+    "skills": "보유 스킬"
+  },
+  "filters": {
+    "all": "전체"
+  },
+  "status": {
+    "진행 중": "진행 중",
+    "완료": "완료"
+  },
+  "buttons": {
+    "viewMore": "자세히 보기",
+    "close": "닫기",
+    "visitLink": "바로가기"
+  },
+  "about": {
+    "bio": "코드로 문제를 풀고, 언어와 담론을 연구하는 것을 좋아합니다. 실용적인 소프트웨어와 깊이 있는 학술 활동을 함께 병행하고 있습니다."
+  },
+  "footer": {
+    "copyright": "© 2026 Suin Cho. All rights reserved."
+  }
+}

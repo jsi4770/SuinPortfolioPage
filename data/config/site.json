@@ -1,0 +1,15 @@
+{
+  "name": "Suin Cho",
+  "title": {
+    "ko": "조수인의 포트폴리오",
+    "en": "Suin Cho's Portfolio"
+  },
+  "tagline": {
+    "ko": "기술과 학문을 함께 탐구합니다",
+    "en": "Exploring technology and academia together"
+  },
+  "description": {
+    "ko": "소프트웨어 프로젝트, 학술 활동, 대외활동을 소개하는 포트폴리오입니다.",
+    "en": "A portfolio showcasing software projects, academic work, and extracurricular activities."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "academics": "Academics",
+    "activities": "Activities",
+    "about": "About"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Software & Academic Portfolio",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch"
+  },
+  "sections": {
+    "projects": "Projects",
+    "academics": "Academic Activities",
+    "activities": "Activities",
+    "about": "About",
+    "skills": "Skills"
+  },
+  "filters": {
+    "all": "All"
+  },
+  "status": {
+    "진행 중": "In Progress",
+    "완료": "Completed"
+  },
+  "buttons": {
+    "viewMore": "View More",
+    "close": "Close",
+    "visitLink": "Visit Link"
+  },
+  "about": {
+    "bio": "I enjoy solving problems through code and researching language and discourse. I balance practical software development with in-depth academic work."
+  },
+  "footer": {
+    "copyright": "© 2026 Suin Cho. All rights reserved."
+  }
+}
