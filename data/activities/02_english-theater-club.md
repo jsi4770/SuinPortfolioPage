@@ -11,6 +11,7 @@ thumbnail: "/images/activities/english-theater-thumb.png"
 organization: "[동아리명]"
 position: "부원"
 tech_stack: []
+links: []
 ---
 
 ## 역할 및 책임

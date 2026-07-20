@@ -10,6 +10,7 @@ status: "진행 중"
 duration: "2024.12 ~ 현재"
 thumbnail: "/images/projects/household-app-thumb.png"
 tech_stack: ["React", "Node.js", "TypeScript", "Naver Cloud Platform"]
+links: []
 ---
 
 ## 개요

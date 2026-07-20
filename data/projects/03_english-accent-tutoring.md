@@ -10,6 +10,7 @@ status: "완료"
 duration: "2024.01 ~ 2024.05"
 thumbnail: "/images/projects/english-accent-thumb.png"
 tech_stack: ["React", "Python", "Speech Recognition"]
+links: []
 ---
 
 ## 개요

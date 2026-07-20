@@ -11,6 +11,7 @@ thumbnail: "/images/activities/society-president-thumb.png"
 organization: "[학회명]"
 position: "회장"
 tech_stack: []
+links: []
 ---
 
 ## 역할 및 책임

@@ -30,6 +30,9 @@
     "close": "Close",
     "visitLink": "Visit Link"
   },
+  "common": {
+    "links": "Links"
+  },
   "about": {
     "bio": "I enjoy solving problems through code and researching language and discourse. I balance practical software development with in-depth academic work."
   },

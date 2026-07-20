@@ -10,6 +10,7 @@ status: "완료"
 duration: "2024.06 ~ 2024.09"
 thumbnail: "/images/projects/error-fare-thumb.png"
 tech_stack: ["Python", "Node.js", "PostgreSQL"]
+links: []
 ---
 
 ## 개요

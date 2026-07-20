@@ -119,6 +119,40 @@ export default function ProjectCard({ item }) {
               </div>
             )}
 
+            {item.links?.length > 0 && (
+              <div className="mb-6 pb-6 border-b border-ink-100">
+                <p className="text-xs font-semibold text-ink-600 mb-3 uppercase tracking-wide">
+                  {t('common.links') || 'Links'}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {item.links.map((link, idx) => (
+                    <a
+                      key={idx}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                    >
+                      {link.title}
+                      <svg
+                        className="w-3 h-3"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        />
+                      </svg>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
             <div
               className="prose prose-slate max-w-none prose-headings:text-ink-900 prose-headings:font-display prose-p:text-ink-700 prose-li:text-ink-700 prose-strong:text-ink-900"
               dangerouslySetInnerHTML={{ __html: item.body?.[language] || '' }}

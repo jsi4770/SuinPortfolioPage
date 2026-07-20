@@ -11,6 +11,7 @@ thumbnail: "/images/activities/fishbowl-challenge-thumb.png"
 organization: "[주최 기관명]"
 position: "참가자"
 tech_stack: []
+links: []
 ---
 
 ## 역할 및 책임

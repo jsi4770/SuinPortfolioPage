@@ -11,6 +11,7 @@ thumbnail: "/images/activities/gangwon-olympics-thumb.png"
 organization: "강원 2024 동계청소년올림픽대회 조직위원회"
 position: "서포터즈"
 tech_stack: []
+links: []
 ---
 
 ## 역할 및 책임
