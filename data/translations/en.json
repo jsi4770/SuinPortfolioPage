@@ -7,9 +7,10 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
+    "nameSuffix": "",
     "role": "Software & Academic Portfolio",
     "ctaProjects": "View Projects",
-    "ctaContact": "Get in Touch"
+    "ctaEmail": "Email"
   },
   "sections": {
     "projects": "Projects",

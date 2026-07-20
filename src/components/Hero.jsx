@@ -3,8 +3,11 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { localize } from '@/utils/localize';
 
-export default function Hero({ site, email }) {
+export default function Hero({ site, social }) {
   const { language, t } = useLanguage();
+
+  const outlineButton =
+    'inline-flex items-center px-5 py-3 rounded-lg border border-ink-300 text-ink-800 font-semibold text-sm md:text-base hover:border-accent-500 hover:text-accent-600 transition-colors';
 
   return (
     <section
@@ -16,7 +19,8 @@ export default function Hero({ site, email }) {
           {t('hero.greeting')}
         </p>
         <h1 className="text-display-sm md:text-display-lg font-display font-bold text-ink-900 mb-4">
-          {site.name}
+          {localize(site.name, language)}
+          {t('hero.nameSuffix')}
         </h1>
         <p className="text-lg md:text-xl text-ink-700 font-medium mb-2">
           {localize(site.tagline, language)}
@@ -32,12 +36,31 @@ export default function Hero({ site, email }) {
           >
             {t('hero.ctaProjects')}
           </a>
-          <a
-            href={`mailto:${email}`}
-            className="inline-flex items-center px-5 py-3 rounded-lg border border-ink-300 text-ink-800 font-semibold text-sm md:text-base hover:border-accent-500 hover:text-accent-600 transition-colors"
-          >
-            {t('hero.ctaContact')}
-          </a>
+          {social?.email && (
+            <a href={`mailto:${social.email}`} className={outlineButton}>
+              {t('hero.ctaEmail')}
+            </a>
+          )}
+          {social?.github && (
+            <a
+              href={social.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={outlineButton}
+            >
+              GitHub
+            </a>
+          )}
+          {social?.linkedin && (
+            <a
+              href={social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={outlineButton}
+            >
+              LinkedIn
+            </a>
+          )}
         </div>
       </div>
     </section>

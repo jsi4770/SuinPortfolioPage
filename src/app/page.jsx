@@ -19,7 +19,7 @@ export default function HomePage() {
 
   return (
     <>
-      <Hero site={siteConfig} email={socialConfig.email} />
+      <Hero site={siteConfig} social={socialConfig} />
       <ProjectGrid
         items={projects}
         type="projects"

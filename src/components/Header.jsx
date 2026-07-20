@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { localize } from '@/utils/localize';
 import MobileMenu from './MobileMenu';
 
 export default function Header({ siteName }) {
@@ -19,7 +20,7 @@ export default function Header({ siteName }) {
     <header className="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-ink-100">
       <div className="mx-auto max-w-6xl flex justify-between items-center px-4 md:px-8 h-16 md:h-20">
         <a href="#top" className="text-lg md:text-xl font-display font-bold text-ink-900">
-          {siteName}
+          {localize(siteName, language)}
         </a>
 
         <nav className="hidden md:flex gap-8">
