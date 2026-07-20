@@ -9,7 +9,6 @@
     "greeting": "Hi, I'm",
     "nameSuffix": "",
     "role": "Software & Academic Portfolio",
-    "ctaProjects": "View Projects",
     "ctaEmail": "Email"
   },
   "sections": {
@@ -33,6 +32,14 @@
   },
   "about": {
     "bio": "I enjoy solving problems through code and researching language and discourse. I balance practical software development with in-depth academic work."
+  },
+  "skillCategories": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "dataAi": "Data & AI",
+    "cloud": "Cloud & Infra",
+    "other": "Other"
   },
   "footer": {
     "copyright": "© 2026 Suin Cho. All rights reserved."

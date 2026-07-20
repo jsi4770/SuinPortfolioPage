@@ -20,7 +20,11 @@ export default function Hero({ site, social }) {
         </p>
         <h1 className="text-display-sm md:text-display-lg font-display font-bold text-ink-900 mb-4">
           {localize(site.name, language)}
-          {t('hero.nameSuffix')}
+          {t('hero.nameSuffix') && (
+            <span className="font-body font-semibold text-accent-600 text-sm md:text-base ml-2 align-middle">
+              {t('hero.nameSuffix').trim()}
+            </span>
+          )}
         </h1>
         <p className="text-lg md:text-xl text-ink-700 font-medium mb-2">
           {localize(site.tagline, language)}
@@ -30,12 +34,6 @@ export default function Hero({ site, social }) {
         </p>
 
         <div className="flex flex-wrap gap-3">
-          <a
-            href="#projects"
-            className="inline-flex items-center px-5 py-3 rounded-lg bg-accent-500 text-white font-semibold text-sm md:text-base hover:bg-accent-600 transition-colors shadow-sm"
-          >
-            {t('hero.ctaProjects')}
-          </a>
           {social?.email && (
             <a href={`mailto:${social.email}`} className={outlineButton}>
               {t('hero.ctaEmail')}

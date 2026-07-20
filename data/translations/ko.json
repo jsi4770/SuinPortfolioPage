@@ -9,7 +9,6 @@
     "greeting": "안녕하세요,",
     "nameSuffix": " 입니다",
     "role": "소프트웨어 & 학술 포트폴리오",
-    "ctaProjects": "프로젝트 보기",
     "ctaEmail": "이메일"
   },
   "sections": {
@@ -33,6 +32,14 @@
   },
   "about": {
     "bio": "코드로 문제를 풀고, 언어와 담론을 연구하는 것을 좋아합니다. 실용적인 소프트웨어와 깊이 있는 학술 활동을 함께 병행하고 있습니다."
+  },
+  "skillCategories": {
+    "frontend": "프론트엔드",
+    "backend": "백엔드",
+    "database": "데이터베이스",
+    "dataAi": "데이터·AI",
+    "cloud": "클라우드·인프라",
+    "other": "기타"
   },
   "footer": {
     "copyright": "© 2026 Suin Cho. All rights reserved."
