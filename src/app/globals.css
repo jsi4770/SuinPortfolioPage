@@ -1,14 +1,22 @@
 @tailwind base;
+
+@layer base {
+  * {
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
-* {
-  overflow-wrap: break-word !important;
-}
-
 html {
   scroll-behavior: smooth;
-  overflow-wrap: break-word !important;
 }
 
 body {
