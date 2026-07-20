@@ -1,21 +1,15 @@
-import { Poppins, Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import siteConfig from '../../data/config/site.json';
 import './globals.css';
 
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['600', '700'],
-  variable: '--font-poppins',
+const pretendard = localFont({
+  src: '../../node_modules/pretendard/dist/web/variable/woff2/PretendardVariable.woff2',
   display: 'swap',
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
+  weight: '45 920',
+  variable: '--font-pretendard',
 });
 
 export const metadata = {
@@ -25,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ko" className={`${poppins.variable} ${inter.variable}`}>
+    <html lang="ko" className={pretendard.variable}>
       <body className="font-body bg-white text-ink-800 antialiased">
         <LanguageProvider>
           <Header siteName={siteConfig.name} />

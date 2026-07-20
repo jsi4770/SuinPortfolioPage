@@ -31,8 +31,8 @@ module.exports = {
         activity: '#B45309',
       },
       fontFamily: {
-        display: ['var(--font-poppins)', 'system-ui', 'sans-serif'],
-        body: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-pretendard)', 'system-ui', 'sans-serif'],
+        body: ['var(--font-pretendard)', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         'display-lg': ['48px', { lineHeight: '1.15', fontWeight: '700' }],
