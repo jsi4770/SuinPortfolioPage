@@ -4,14 +4,11 @@
 
 * {
   overflow-wrap: break-word !important;
-  word-break: break-all !important;
-  word-spacing: normal !important;
 }
 
 html {
   scroll-behavior: smooth;
   overflow-wrap: break-word !important;
-  word-break: break-all !important;
 }
 
 body {
