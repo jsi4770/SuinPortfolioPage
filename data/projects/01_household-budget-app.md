@@ -8,7 +8,7 @@ description:
 date: "2026-07-24"
 status: "진행 중"
 duration: "2025.12 ~ 현재"
-thumbnail: "/images/projects/AI_Coach_Budget_App_Thumb.jpeg"
+thumbnail: "/images/projects/osori-poster-thumb.jpg"
 tech_stack: ["React", "Spring Boot", "PostgreSQL", "Gemini AI"]
 links:
   - title:
