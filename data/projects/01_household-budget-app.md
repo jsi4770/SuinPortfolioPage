@@ -44,7 +44,9 @@ A nudge-based AI financial coaching ledger. It auto-recognizes expenses via rece
 - 대화형 목표 코칭
 - 챌린지 성장 리포트
 
-![OSORI 프로젝트 포스터](/images/projects/osori-poster-ko.png)
+<a href="/images/projects/osori-poster-ko.png" target="_blank" rel="noopener noreferrer">
+  <img src="/images/projects/osori-poster-ko.png" alt="OSORI 프로젝트 포스터 (클릭 시 원본 크기로 보기)">
+</a>
 
 ---
 
@@ -56,4 +58,6 @@ A nudge-based AI financial coaching ledger. It auto-recognizes expenses via rece
 - Conversational Goal Setting
 - Challenge Growth Reports
 
-![OSORI project poster](/images/projects/osori-poster-en.png)
+<a href="/images/projects/osori-poster-en.png" target="_blank" rel="noopener noreferrer">
+  <img src="/images/projects/osori-poster-en.png" alt="OSORI project poster (click to view full size)">
+</a>
