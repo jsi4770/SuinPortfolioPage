@@ -1,54 +1,58 @@
 ---
 title:
-  ko: "영어 발음/억양 튜터링 플랫폼 (자리 채워주세요)"
-  en: "English Accent Tutoring Platform (placeholder — please fill in)"
+  ko: "AI 영어 스피킹 코치"
+  en: "AI English Speaking Coach"
 description:
-  ko: "영어 발음과 억양 교정을 위한 튜터링 서비스"
-  en: "A tutoring service for English pronunciation and accent coaching"
-date: "2024-01-01"
-status: "완료"
-duration: "2024.01 ~ 2024.05"
-thumbnail: "/images/projects/english-accent-thumb.png"
-tech_stack: ["React", "Python", "Speech Recognition"]
+  ko: "실전 표현과 말하기 연습을 돕는 AI 영어 튜터링 서비스"
+  en: "An AI-powered tutoring service that helps learners practice real-world English speaking and expressions"
+date: "2026-05-01"
+status: "진행 중"
+duration: "2026.05 ~ 현재"
+thumbnail: "/images/projects/english-speaking-coach-thumb.png"
+tech_stack: []
 links: []
 ---
 
 ## 개요
-> **TODO**: 실제 프로젝트 내용으로 이 항목을 채워주세요. 아래는 파일명을 근거로 작성된 예시 초안입니다.
+> **TODO**: 실제 프로젝트 내용으로 이 항목을 채워주세요. 아래는 팀 활동 정보를 근거로 작성된 예시 초안입니다.
 
-영어 발음과 억양을 분석하고 피드백을 제공하는 튜터링 서비스입니다.
+발음 교정을 넘어, 실전에서 쓸 수 있는 표현과 말하기 능력을 키우는 데 초점을 맞춘 AI 영어 튜터링 서비스입니다. AI 창업동아리에서 개발 중입니다.
 
 ---
 
 ## Overview
-> **TODO**: Please replace this with the actual project details. The content below is a draft placeholder inferred from the file name.
+> **TODO**: Please replace this with the actual project details. The content below is a draft placeholder inferred from the team activity info.
 
-A tutoring service that analyzes English pronunciation and accent and provides feedback.
+An AI-powered English tutoring service focused on building real-world speaking ability and expression — beyond simple pronunciation correction. Currently in development at the AI Startup Club.
 
 ## 문제 인식
-- 발음 교정을 위한 즉각적인 피드백 도구 부재
-- 억양 차이로 인한 의사소통의 어려움
+> **TODO**: 실제 문제 인식으로 교체해주세요.
+
+- 문법·단어는 알아도 실제 대화 상황에서 자연스러운 표현으로 바꾸는 게 어려움
+- 혼자 말하기 연습을 하면 즉각적인 피드백을 받기 어려움
 
 ---
 
 ## Problem Recognition
-- Lack of tools providing immediate pronunciation feedback
-- Communication difficulties caused by accent differences
+> **TODO**: Please replace with the actual problem recognition.
+
+- Knowing grammar and vocabulary doesn't translate easily into natural expressions in real conversation
+- Practicing speaking alone makes it hard to get immediate feedback
 
 ## 솔루션
-**기술 스택**: React, Python, Speech Recognition
+**기술 스택**: TODO — 사용한 기술 스택을 채워주세요.
 
 **핵심 기능**:
-- 음성 녹음 및 발음 분석
-- 억양 교정 피드백 제공
-- 학습 진도 트래킹
+- AI와의 대화형 말하기 연습
+- 표현 교정 및 대안 표현 제안
+- TODO: 그 외 핵심 기능 추가
 
 ---
 
 ## Solution
-**Tech Stack**: React, Python, Speech Recognition
+**Tech Stack**: TODO — fill in the actual tech stack.
 
 **Key Features**:
-- Voice recording and pronunciation analysis
-- Accent correction feedback
-- Learning progress tracking
+- Conversational speaking practice with AI
+- Expression correction and alternative phrasing suggestions
+- TODO: add any other key features

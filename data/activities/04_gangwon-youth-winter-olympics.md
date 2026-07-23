@@ -1,10 +1,10 @@
 ---
 title:
-  ko: "강원 청소년 동계올림픽 서포터즈 (자리 채워주세요)"
-  en: "Gangwon Youth Winter Olympics Supporters (placeholder — please fill in)"
+  ko: "강원 청소년 동계올림픽 자원봉사"
+  en: "Gangwon Youth Winter Olympics Volunteer"
 description:
-  ko: "강원 청소년 동계올림픽 관련 서포터즈/자원봉사 활동"
-  en: "Supporter/volunteer activity related to the Gangwon Youth Winter Olympics"
+  ko: "강원 청소년 동계올림픽 관련 자원봉사 활동"
+  en: "Volunteer activity related to the Gangwon Youth Winter Olympics"
 date: "2024-01-01"
 duration: "2024.01 ~ 2024.02"
 thumbnail: "/images/activities/gangwon-olympics-thumb.png"

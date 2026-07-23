@@ -1,54 +1,58 @@
 ---
 title:
-  ko: "에러 항공권 추적기 (자리 채워주세요)"
-  en: "Error Fare Tracker (placeholder — please fill in)"
+  ko: "AI 기반 기업 OJT 문제 생성·채점 시스템"
+  en: "AI-Powered Corporate OJT Question Generation & Grading System"
 description:
-  ko: "항공권 오류 운임(Error Fare)을 자동으로 감지하고 알림을 보내는 서비스"
-  en: "A service that automatically detects airline error fares and sends alerts"
-date: "2024-06-01"
+  ko: "LLM으로 기업 OJT 문제를 자동 생성하고 채점하는 시스템"
+  en: "An LLM-driven system that auto-generates and grades corporate on-the-job training questions"
+date: "2026-06-01"
 status: "완료"
-duration: "2024.06 ~ 2024.09"
-thumbnail: "/images/projects/error-fare-thumb.png"
-tech_stack: ["Python", "Node.js", "PostgreSQL"]
+duration: "2026.06 ~ 2026.07"
+thumbnail: "/images/projects/ojt-system-thumb.png"
+tech_stack: []
 links: []
 ---
 
 ## 개요
-> **TODO**: 실제 프로젝트 내용으로 이 항목을 채워주세요. 아래는 파일명을 근거로 작성된 예시 초안입니다.
+> **TODO**: 계약서상 비밀유지 조항을 확인한 뒤, 공개 가능한 범위 내에서 실제 프로젝트 내용(회사명 노출 여부, 스크린샷 포함 여부 등)으로 이 항목을 채워주세요. 아래는 팀 활동 정보를 근거로 작성된 예시 초안입니다.
 
-항공권 가격 데이터를 주기적으로 수집해 정상 운임보다 비정상적으로 낮은 오류 운임을 탐지하고 사용자에게 알려주는 프로젝트입니다.
+기업 실무자를 위한 OJT(On-the-Job Training) 문제를 AI가 자동으로 생성하고, 응답을 자동 채점하는 시스템입니다. 아산 AX 글로벌 인재양성 프로그램에서 실제 기업 과제로 진행했습니다.
 
 ---
 
 ## Overview
-> **TODO**: Please replace this with the actual project details. The content below is a draft placeholder inferred from the file name.
+> **TODO**: Please confirm what's safe to disclose under the contract/NDA (company name, screenshots, etc.) before replacing this with the real project details. The content below is a draft inferred from the team activity info.
 
-A project that periodically collects flight fare data to detect abnormally low "error fares" and notifies users.
+A system that uses AI to automatically generate on-the-job training (OJT) questions for corporate employees and grade their responses. Built as a real-company project through the ASAN AX Global Talent Development Program.
 
 ## 문제 인식
-- 항공권 오류 운임은 짧은 시간 내 사라지므로 빠른 감지가 필요함
-- 수동 모니터링의 한계
+> **TODO**: 실제 문제 인식으로 교체해주세요.
+
+- 기업 OJT 문제 출제와 채점을 수작업으로 진행하면 시간이 오래 걸리고 담당자마다 채점 기준이 달라짐
+- 교육 대상자 수가 많아질수록 개인별 피드백 제공이 어려움
 
 ---
 
 ## Problem Recognition
-- Error fares disappear quickly, so fast detection is required
-- Limitations of manual monitoring
+> **TODO**: Please replace with the actual problem recognition.
+
+- Manually authoring and grading OJT questions is slow, and grading criteria vary by reviewer
+- Providing individualized feedback becomes harder as the number of trainees grows
 
 ## 솔루션
-**기술 스택**: Python, Node.js, PostgreSQL
+**기술 스택**: TODO — 사용한 기술 스택을 채워주세요.
 
 **핵심 기능**:
-- 항공권 가격 주기적 크롤링/수집
-- 이상치 탐지 로직으로 오류 운임 필터링
-- 알림 발송
+- LLM 기반 OJT 문제 자동 생성
+- 응답 자동 채점 및 피드백 제공
+- TODO: 그 외 핵심 기능 추가
 
 ---
 
 ## Solution
-**Tech Stack**: Python, Node.js, PostgreSQL
+**Tech Stack**: TODO — fill in the actual tech stack.
 
 **Key Features**:
-- Periodic crawling/collection of flight fare data
-- Outlier detection logic to filter error fares
-- Alert notifications
+- LLM-based automatic OJT question generation
+- Automated response grading and feedback
+- TODO: add any other key features

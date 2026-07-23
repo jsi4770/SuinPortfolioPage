@@ -1,15 +1,15 @@
 ---
 title:
-  ko: "피쉬볼 챌린지 참가 (자리 채워주세요)"
-  en: "Fishbowl Challenge (placeholder — please fill in)"
+  ko: "피쉬볼 챌린지 파이널리스트"
+  en: "Fishbowl Challenge Finalist"
 description:
-  ko: "피쉬볼 토론 방식의 챌린지 프로그램 참가"
-  en: "Participation in a fishbowl-style discussion challenge program"
-date: "2023-09-01"
-duration: "2023.09"
+  ko: "피쉬볼 토론 방식의 챌린지 프로그램 파이널리스트"
+  en: "Finalist in a fishbowl-style discussion challenge program"
+date: "2020-01-01"
+duration: "2020 (정확한 시기 TODO)"
 thumbnail: "/images/activities/fishbowl-challenge-thumb.png"
 organization: "[주최 기관명]"
-position: "참가자"
+position: "Finalist"
 tech_stack: []
 links: []
 ---
