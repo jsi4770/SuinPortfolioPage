@@ -10,7 +10,12 @@ status: "진행 중"
 duration: "2025.12 ~ 현재"
 thumbnail: "/images/projects/AI_Coach_Budget_App_Thumb.jpeg"
 tech_stack: ["React", "Spring Boot", "PostgreSQL", "Gemini AI"]
-links: [https://fincoach-app-beta.vercel.app/]
+links:
+  - title:
+      ko: "가계부 서비스"
+      en: "Ledger Service Link"
+    type: "link"
+    url: "https://fincoach-app-beta.vercel.app/"
 ---
 
 ## 개요
