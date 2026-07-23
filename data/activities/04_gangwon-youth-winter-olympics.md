@@ -3,8 +3,8 @@ title:
   ko: "강원 청소년 동계올림픽 자원봉사"
   en: "Gangwon Youth Winter Olympics Volunteer"
 description:
-  ko: "강원 청소년 동계올림픽 관련 자원봉사 활동"
-  en: "Volunteer activity related to the Gangwon Youth Winter Olympics"
+  ko: "Race Office에서 대회 운영을 지원한 자원봉사 활동"
+  en: "Volunteer activity supporting event operations at the Race Office"
 date: "2024-01-15"
 duration: "2024.01.15 ~ 2024.02.01"
 thumbnail: "/images/activities/gangwon-olympics-thumb.png"
@@ -15,15 +15,17 @@ links: []
 ---
 
 ## 역할 및 책임
-> **TODO**: 실제 활동 내용으로 이 항목을 채워주세요. 아래는 파일명을 근거로 작성된 예시 초안입니다.
+Race Office에서 근무하며 대회 운영을 지원했습니다.
 
-- 대회 기간 현장 운영 지원
-- 외국인 참가자 대상 영어 통역/안내
+- TCM(Team Captain Meeting) 준비
+- 경기 결과 고지
+- 사무실 내방객 안내 등 기타 행정 지원
 
 ---
 
 ## Roles and Responsibilities
-> **TODO**: Please replace this with the actual details. The content below is a draft placeholder inferred from the file name.
+Worked at the Race Office supporting event operations.
 
-- Supported on-site operations during the event
-- Provided English interpretation/guidance for international participants
+- Prepared for TCM (Team Captain Meeting) sessions
+- Posted and announced race results
+- Provided general administrative support, including guiding office visitors
