@@ -5,8 +5,8 @@ title:
 description:
   ko: "학회 운영 및 행사 관리"
   en: "Society management and event organization"
-date: "2024-03-01"
-duration: "2024.03 ~ 2025.02"
+date: "2024-01-01"
+duration: "2024.01.01 ~ 2024.12.31"
 thumbnail: "/images/activities/society-president-thumb.png"
 organization: "학과 학회"
 position: "회장"

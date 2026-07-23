@@ -5,8 +5,8 @@ title:
 description:
   ko: "피쉬볼 토론 방식의 챌린지 프로그램 파이널리스트"
   en: "Finalist in a fishbowl-style discussion challenge program"
-date: "2020-01-01"
-duration: "2020 (정확한 시기 TODO)"
+date: "2020-09-01"
+duration: "2020.09.01 ~ 2021.03.03"
 thumbnail: "/images/activities/fishbowl-challenge-thumb.png"
 organization: "[주최 기관명]"
 position: "Finalist"

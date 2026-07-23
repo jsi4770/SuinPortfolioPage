@@ -9,7 +9,7 @@ date: "2026-05-01"
 status: "진행 중"
 duration: "2026.05 ~ 현재"
 thumbnail: "/images/projects/english-speaking-coach-thumb.png"
-tech_stack: []
+tech_stack: ["Swift", "React", "Django", "MySQL"]
 links: []
 ---
 
@@ -40,7 +40,7 @@ An AI-powered English tutoring service focused on building real-world speaking a
 - Practicing speaking alone makes it hard to get immediate feedback
 
 ## 솔루션
-**기술 스택**: TODO — 사용한 기술 스택을 채워주세요.
+**기술 스택**: Swift, React, Django, MySQL
 
 **핵심 기능**:
 - AI와의 대화형 말하기 연습
@@ -50,7 +50,7 @@ An AI-powered English tutoring service focused on building real-world speaking a
 ---
 
 ## Solution
-**Tech Stack**: TODO — fill in the actual tech stack.
+**Tech Stack**: Swift, React, Django, MySQL
 
 **Key Features**:
 - Conversational speaking practice with AI

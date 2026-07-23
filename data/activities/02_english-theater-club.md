@@ -5,8 +5,8 @@ title:
 description:
   ko: "Wellesley College와의 영어 연극 합동공연"
   en: "A joint English theater performance with Wellesley College"
-date: "2024-01-01"
-duration: "2024 (정확한 시기 TODO)"
+date: "2024-04-01"
+duration: "2024.04.01 ~ 2025.01.10"
 thumbnail: "/images/activities/english-theater-thumb.png"
 organization: "영어연극동아리 · Wellesley College"
 position: "부원"

@@ -5,8 +5,8 @@ title:
 description:
   ko: "강원 청소년 동계올림픽 관련 자원봉사 활동"
   en: "Volunteer activity related to the Gangwon Youth Winter Olympics"
-date: "2024-01-01"
-duration: "2024.01 ~ 2024.02"
+date: "2024-01-15"
+duration: "2024.01.15 ~ 2024.02.01"
 thumbnail: "/images/activities/gangwon-olympics-thumb.png"
 organization: "강원 2024 동계청소년올림픽대회 조직위원회"
 position: "서포터즈"
