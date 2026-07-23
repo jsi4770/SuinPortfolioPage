@@ -1,50 +1,50 @@
 ---
 title:
-  ko: "가계부 앱 - 영수증 OCR 기반 자동 분류"
-  en: "Household Budget App - OCR-based Automatic Classification"
+  ko: "넛지형 AI 재무 코칭 가계부"
+  en: "Nudge-Based AI Financial Coaching Ledger"
 description:
-  ko: "영수증 OCR을 통한 자동 분류"
-  en: "Automatic categorization via receipt OCR"
-date: "2024-12-01"
+  ko: "실시간 AI 넛지와 대화형 코칭으로 지출 습관을 바꾸는 가계부"
+  en: "A nudge-driven AI finance coach that transforms spending habits through real-time insights and conversational guidance"
+date: "2026-07-24"
 status: "진행 중"
-duration: "2024.12 ~ 현재"
-thumbnail: "/images/projects/household-app-thumb.png"
-tech_stack: ["React", "Node.js", "TypeScript", "Naver Cloud Platform"]
-links: []
+duration: "2025.12 ~ 현재"
+thumbnail: "/images/projects/AI_Coach_Budget_App_Thumb.jpeg"
+tech_stack: ["React", "Spring Boot", "PostgreSQL", "Gemini AI"]
+links: [https://fincoach-app-beta.vercel.app/]
 ---
 
 ## 개요
-집안 살림을 효율적으로 관리하기 위해 개발한 앱입니다.
+넛지형 AI 재무 코칭 가계부입니다. 영수증 OCR로 지출을 자동 인식하고, 이상 소비를 감지해 맥락 있는 넛지를 건네며 목표 기반 대화형 코칭으로 성장 리포트까지 제공합니다.
 
 ---
 
 ## Overview
-An app for efficient household budget management.
+A nudge-based AI financial coaching ledger. It auto-recognizes expenses via receipt OCR, flags unusual spending with contextual nudges, and delivers goal-driven conversational coaching with growth reports.
 
 ## 문제 인식
-- 매번 수작업으로 지출을 기록하는 번거로움
-- 영수증 이미지로 자동 인식 필요
+- 기존 가계부 앱은 지출 기록·카테고리별 집계·다음 달 예측까지는 해주지만, "왜 늘었는지, 다음엔 어떻게 줄일지"에 대한 맥락 있는 조언은 없다.
+- 예산 초과 알림은 이미 벌어진 일에 대한 사후 통보라 "늦은 알림"으로 느껴지고, 반복되면 무시하게 된다.
 
 ---
 
 ## Problem Recognition
-- Tedious manual expense entry
-- Need for automatic receipt recognition
+- Existing budget apps track expenses, aggregate by category, and even forecast next month's spending — but offer no contextual advice on why spending spiked or how to reduce it.
+- Over-budget alerts are after-the-fact notifications that feel "too late," and get ignored once they become routine.
 
 ## 솔루션
-**기술 스택**: React, Node.js, TypeScript, Naver Cloud Platform OCR API
+**기술 스택**: React, Spring Boot, PostgreSQL, Gemini AI
 
 **핵심 기능**:
-- 영수증 사진 업로드 → 자동 항목 인식
-- 월별/카테고리별 통계
-- 예산 알림
+- 실시간 이상 넛지
+- 대화형 목표 코칭
+- 챌린지 성장 리포트
 
 ---
 
 ## Solution
-**Tech Stack**: React, Node.js, TypeScript, Naver Cloud Platform OCR API
+**Tech Stack**: React, Spring Boot, PostgreSQL, Gemini AI
 
 **Key Features**:
-- Upload receipt photo → Automatic item recognition
-- Monthly/category statistics
-- Budget alerts
+- Real-Time Anomaly Nudges
+- Conversational Goal Setting
+- Challenge Growth Reports
