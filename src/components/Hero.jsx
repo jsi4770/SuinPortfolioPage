@@ -25,7 +25,7 @@ export default function Hero({ site, social }) {
             </span>
           )}
         </h1>
-        <p className="text-xl md:text-lead text-ink-800 mb-3 max-w-2xl">
+        <p className="text-xl md:text-lead text-ink-800 mb-3 max-w-2xl whitespace-pre-line">
           {localize(site.tagline, language)}
         </p>
         <p className="text-base17 text-ink-500 max-w-2xl mb-10">
