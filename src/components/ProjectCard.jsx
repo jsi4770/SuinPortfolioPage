@@ -41,7 +41,10 @@ export default function ProjectCard({ item }) {
 
   return (
     <>
-      <div className="group bg-white rounded-xl overflow-hidden border border-ink-100 hover:shadow-lg hover:-translate-y-[3px] transition-all duration-300 flex flex-col">
+      <div
+        id={item.id}
+        className="group bg-white rounded-xl overflow-hidden border border-ink-100 hover:shadow-lg hover:-translate-y-[3px] transition-all duration-300 flex flex-col scroll-mt-24"
+      >
         <Thumbnail item={item} accent={accent} />
 
         <div className="p-5 flex flex-col flex-1">

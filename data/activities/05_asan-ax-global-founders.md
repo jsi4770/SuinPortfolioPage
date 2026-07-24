@@ -11,7 +11,12 @@ thumbnail: "/images/activities/asan-ax-founders-thumb.png"
 organization: "아산 AX 글로벌 인재양성 프로그램 (ASAN AX FOUNDERS 10)"
 position: "팀원 (프론트엔드·UX 담당)"
 tech_stack: ["React"]
-links: []
+links:
+  - title:
+      ko: "관련 프로젝트: AI 기반 기업 OJT 문제 생성·채점 시스템"
+      en: "Related Project: AI-Powered Corporate OJT Question Generation & Grading System"
+    type: "link"
+    url: "/#02_error-fare-tracker"
 ---
 
 ## 역할 및 책임

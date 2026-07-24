@@ -16,15 +16,25 @@ links:
       en: "Ledger Service Link"
     type: "link"
     url: "https://fincoach-app-beta.vercel.app/"
+  - title:
+      ko: "GitHub 저장소"
+      en: "GitHub Repository"
+    type: "link"
+    url: "https://github.com/jsi4770/osori-v2"
+  - title:
+      ko: "관련 활동: Spring & React 풀스택 부트캠프"
+      en: "Related Activity: Spring & React Full-Stack Bootcamp"
+    type: "link"
+    url: "/#08_fullstack-bootcamp"
 ---
 
 ## 개요
-넛지형 AI 재무 코칭 가계부입니다. 영수증 OCR로 지출을 자동 인식하고, 이상 소비를 감지해 맥락 있는 넛지를 건네며 목표 기반 대화형 코칭으로 성장 리포트까지 제공합니다.
+넛지형 AI 재무 코칭 가계부입니다. 영수증 OCR로 지출을 자동 인식하고, 이상 소비를 감지해 맥락 있는 넛지를 건네며 목표 기반 대화형 코칭으로 성장 리포트까지 제공합니다. Spring & React 풀스택 부트캠프 팀 프로젝트로 만든 가계부 앱을, 이후 AI 재무 코칭 기능을 더해 개인 프로젝트로 업그레이드했습니다.
 
 ---
 
 ## Overview
-A nudge-based AI financial coaching ledger. It auto-recognizes expenses via receipt OCR, flags unusual spending with contextual nudges, and delivers goal-driven conversational coaching with growth reports.
+A nudge-based AI financial coaching ledger. It auto-recognizes expenses via receipt OCR, flags unusual spending with contextual nudges, and delivers goal-driven conversational coaching with growth reports. It began as a budget-ledger app built for the Spring & React full-stack bootcamp's team project, later upgraded into a personal project with AI financial coaching features.
 
 ## 문제 인식
 - 기존 가계부 앱은 지출 기록·카테고리별 집계·다음 달 예측까지는 해주지만, "왜 늘었는지, 다음엔 어떻게 줄일지"에 대한 맥락 있는 조언은 없다.

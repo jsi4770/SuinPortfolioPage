@@ -10,7 +10,12 @@ status: "완료"
 duration: "2026.06 ~ 2026.07"
 thumbnail: "/images/projects/ojt-system-thumb.png"
 tech_stack: ["React", "FastAPI", "Claude API", "Google Sheets API"]
-links: []
+links:
+  - title:
+      ko: "관련 활동: 아산 AX 글로벌 인재양성 프로그램"
+      en: "Related Activity: ASAN AX Global Talent Development Program"
+    type: "link"
+    url: "/#05_asan-ax-global-founders"
 ---
 
 ## 개요

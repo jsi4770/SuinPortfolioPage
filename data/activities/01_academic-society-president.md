@@ -3,8 +3,8 @@ title:
   ko: "학과 학회장"
   en: "Department Academic Society President"
 description:
-  ko: "학회 운영 및 행사 관리"
-  en: "Society management and event organization"
+  ko: "학위수여식·MT·학술제 등 학과행사 총괄"
+  en: "Oversaw department events such as the degree ceremony, MT, and academic festival"
 date: "2024-01-01"
 duration: "2024.01.01 ~ 2024.12.31"
 thumbnail: "/images/activities/society-president-thumb.png"
@@ -15,11 +15,9 @@ links: []
 ---
 
 ## 역할 및 책임
-- 정기 모임 운영
-- 학술 발표 세션 기획
+학위수여식, MT, 할로윈행사, 학술제 등 학과행사를 총괄했습니다.
 
 ---
 
 ## Roles and Responsibilities
-- Regular meeting management
-- Academic presentation session planning
+Oversaw department events, including the degree conferment ceremony, MT (retreat), Halloween event, and academic festival.

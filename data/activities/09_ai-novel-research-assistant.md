@@ -25,5 +25,5 @@ links: []
 ## Roles and Responsibilities
 Handled administrative work for the research group.
 
-- Managed research fund payments and settlements
+- Managed research budget payments and settlements
 - Processed various administrative paperwork
