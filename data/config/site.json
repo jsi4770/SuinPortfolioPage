@@ -14,5 +14,9 @@
   "description": {
     "ko": "소프트웨어 프로젝트, 학술 활동, 대외활동을 소개하는 포트폴리오입니다.",
     "en": "A portfolio showcasing software projects, academic work, and extracurricular activities."
+  },
+  "education": {
+    "ko": "순천향대학교 영미학과 재학 중 (AI·빅데이터학 복수전공)",
+    "en": "Soonchunhyang University, Department of British and American Studies (Double Major in Department of AI·BigData)"
   }
 }
