@@ -31,17 +31,18 @@ function matchesFilter(item, type, active) {
   return (item.date || '').startsWith(active);
 }
 
-export default function ProjectGrid({ items, type, titleKey, id }) {
+export default function ProjectGrid({ items, type, titleKey, id, tone = 'light' }) {
   const { language, t } = useLanguage();
   const [active, setActive] = useState('all');
 
   const options = useMemo(() => computeOptions(items, type, t), [items, type, language]);
   const filtered = items.filter((item) => matchesFilter(item, type, active));
+  const sectionBg = tone === 'parchment' ? 'bg-parchment' : 'bg-white';
 
   return (
-    <section id={id} className="scroll-mt-24 py-16 md:py-24 border-t border-ink-100">
+    <section id={id} className={`scroll-mt-24 py-16 md:py-24 ${sectionBg}`}>
       <div className="mx-auto max-w-6xl px-4 md:px-8">
-        <h2 className="text-2xl md:text-3xl font-display font-bold text-ink-900 mb-8">
+        <h2 className="text-2xl md:text-display-md font-display font-semibold tracking-tight text-ink-900 mb-8">
           {t(titleKey)}
         </h2>
 

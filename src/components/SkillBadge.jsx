@@ -14,8 +14,8 @@ export default function SkillBadge({ tech, relatedItems }) {
       <button
         type="button"
         onClick={() => hasRelated && setIsOpen(true)}
-        className={`px-3 py-1.5 rounded-lg text-sm font-semibold bg-accent-50 text-accent-700 border border-accent-100 transition-colors ${
-          hasRelated ? 'hover:bg-accent-100 hover:border-accent-200 cursor-pointer' : 'cursor-default'
+        className={`px-3 py-1.5 rounded-md text-sm font-medium bg-ink-100 text-ink-700 border border-transparent transition-colors active:scale-95 ${
+          hasRelated ? 'hover:border-accent-500 hover:text-accent-500 cursor-pointer' : 'cursor-default'
         }`}
       >
         {tech}
@@ -30,15 +30,15 @@ export default function SkillBadge({ tech, relatedItems }) {
             role="dialog"
             aria-modal="true"
             onClick={(event) => event.stopPropagation()}
-            className="bg-white rounded-2xl max-w-md w-full max-h-[80vh] overflow-y-auto p-6 animate-scale-in"
+            className="bg-white rounded-card max-w-md w-full max-h-[80vh] overflow-y-auto p-6 animate-scale-in"
           >
             <div className="flex justify-between items-start gap-4 mb-4">
-              <h3 className="text-lg font-display font-bold text-ink-900">{tech}</h3>
+              <h3 className="text-lg font-display font-semibold tracking-tight text-ink-900">{tech}</h3>
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
                 aria-label={t('buttons.close')}
-                className="text-ink-500 hover:text-ink-900 text-xl leading-none"
+                className="text-ink-500 hover:text-ink-900 text-xl leading-none transition-transform active:scale-90"
               >
                 ✕
               </button>
@@ -48,9 +48,9 @@ export default function SkillBadge({ tech, relatedItems }) {
               {relatedItems.map((item) => (
                 <li key={`${item.category}-${item.id}`}>
                   <a
-                    href={`#${item.category}`}
+                    href={`#${item.id}`}
                     onClick={() => setIsOpen(false)}
-                    className="text-sm font-medium text-ink-800 hover:text-accent-600"
+                    className="text-sm font-medium text-ink-800 hover:text-accent-500"
                   >
                     {localize(item.title, language)}
                   </a>

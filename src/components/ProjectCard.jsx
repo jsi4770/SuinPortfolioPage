@@ -6,7 +6,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { localize } from '@/utils/localize';
 import { CATEGORY_STYLES } from '@/utils/constants';
 
-function Thumbnail({ item, accent }) {
+function Thumbnail({ item }) {
   if (item.thumbnailExists) {
     return (
       <Image
@@ -22,9 +22,7 @@ function Thumbnail({ item, accent }) {
   const initial = (item.title?.en || item.title?.ko || '?').charAt(0).toUpperCase();
 
   return (
-    <div
-      className={`w-full h-40 flex items-center justify-center text-3xl font-display font-bold text-white ${accent.bg}`}
-    >
+    <div className="w-full h-40 flex items-center justify-center text-3xl font-display font-semibold text-white bg-tile-1">
       {initial}
     </div>
   );
@@ -43,21 +41,21 @@ export default function ProjectCard({ item }) {
     <>
       <div
         id={item.id}
-        className="group bg-white rounded-xl overflow-hidden border border-ink-100 hover:shadow-lg hover:-translate-y-[3px] transition-all duration-300 flex flex-col scroll-mt-24"
+        className="group bg-white rounded-card overflow-hidden border border-hairline hover:border-accent-500 transition-colors duration-300 flex flex-col scroll-mt-24"
       >
-        <Thumbnail item={item} accent={accent} />
+        <Thumbnail item={item} />
 
         <div className="p-5 flex flex-col flex-1">
           {item.status && (
             <span
-              className={`self-start text-xs font-semibold px-2 py-0.5 rounded-full mb-2 ${accent.softBg} ${accent.text}`}
+              className={`self-start text-xs font-semibold px-2.5 py-1 rounded-full mb-2 ${accent.softBg} ${accent.text}`}
             >
               {t(`status.${item.status}`)}
             </span>
           )}
 
-          <h3 className="text-lg font-bold text-ink-900 mb-1 break-words">{title}</h3>
-          <p className="text-sm text-ink-700 mb-3 flex-1 break-words">{description}</p>
+          <h3 className="text-lg font-display font-semibold tracking-tight text-ink-900 mb-1 break-words">{title}</h3>
+          <p className="text-sm text-ink-700 mb-3 flex-1 break-words leading-relaxed">{description}</p>
 
           {meta && <p className="text-xs text-ink-500 mb-3">{meta}</p>}
 
@@ -93,17 +91,17 @@ export default function ProjectCard({ item }) {
             role="dialog"
             aria-modal="true"
             onClick={(event) => event.stopPropagation()}
-            className="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-8 animate-scale-in"
+            className="bg-white rounded-card max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-8 animate-scale-in"
           >
             <div className="flex justify-between items-start gap-4 mb-4">
-              <h3 className="text-xl md:text-2xl font-display font-bold text-ink-900 break-words">
+              <h3 className="text-xl md:text-2xl font-display font-semibold tracking-tight text-ink-900 break-words">
                 {title}
               </h3>
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
                 aria-label={t('buttons.close')}
-                className="text-ink-500 hover:text-ink-900 text-xl leading-none"
+                className="text-ink-500 hover:text-ink-900 text-xl leading-none transition-transform active:scale-90"
               >
                 ✕
               </button>
@@ -134,7 +132,7 @@ export default function ProjectCard({ item }) {
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                      className="inline-flex items-center gap-1.5 text-sm font-medium text-accent-500 hover:text-accent-600 hover:underline"
                     >
                       {localize(link.title, language)}
                       <svg

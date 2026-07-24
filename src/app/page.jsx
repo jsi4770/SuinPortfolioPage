@@ -25,18 +25,21 @@ export default function HomePage() {
         type="projects"
         titleKey="sections.projects"
         id="projects"
+        tone="parchment"
       />
       <ProjectGrid
         items={academics}
         type="academics"
         titleKey="sections.academics"
         id="academics"
+        tone="light"
       />
       <ProjectGrid
         items={activities}
         type="activities"
         titleKey="sections.activities"
         id="activities"
+        tone="parchment"
       />
       <About techStack={techStack} allItems={allItems} social={socialConfig} />
     </>

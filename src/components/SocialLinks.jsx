@@ -23,7 +23,7 @@ export default function SocialLinks({ social }) {
             target={key === 'email' ? undefined : '_blank'}
             rel={key === 'email' ? undefined : 'noopener noreferrer'}
             aria-label={key}
-            className="w-10 h-10 flex items-center justify-center rounded-full border border-ink-300 text-ink-700 font-semibold hover:border-accent-500 hover:text-accent-600 transition-colors"
+            className="w-11 h-11 flex items-center justify-center rounded-full border border-hairline text-ink-700 font-semibold transition-colors active:scale-95 hover:border-accent-500 hover:text-accent-500"
           >
             {ICONS[key] || key.charAt(0).toUpperCase()}
           </a>

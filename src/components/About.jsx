@@ -12,13 +12,13 @@ export default function About({ techStack, allItems, social }) {
   const skillGroups = groupSkillsByCategory(techStack);
 
   return (
-    <section id="about" className="scroll-mt-24 py-16 md:py-24 border-t border-ink-100 bg-ink-100/40">
+    <section id="about" className="scroll-mt-24 py-16 md:py-24 bg-white">
       <div className="mx-auto max-w-6xl px-4 md:px-8">
-        <h2 className="text-2xl md:text-3xl font-display font-bold text-ink-900 mb-6">
+        <h2 className="text-2xl md:text-display-md font-display font-semibold tracking-tight text-ink-900 mb-6">
           {t('sections.about')}
         </h2>
 
-        <p className="text-base md:text-lg text-ink-700 max-w-2xl mb-10 leading-relaxed">
+        <p className="text-base17 text-ink-700 max-w-2xl mb-10">
           {t('about.bio')}
         </p>
 

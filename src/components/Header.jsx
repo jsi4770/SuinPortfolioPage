@@ -17,53 +17,58 @@ export default function Header({ siteName }) {
   ];
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-ink-100">
-      <div className="mx-auto max-w-6xl flex justify-between items-center px-4 md:px-8 h-16 md:h-20">
-        <a href="#top" className="text-lg md:text-xl font-display font-bold text-ink-900">
+    <header className="fixed top-0 inset-x-0 z-50 bg-ink-900 text-white">
+      <div className="mx-auto max-w-6xl flex justify-between items-center px-4 md:px-8 h-11 md:h-12">
+        <a
+          href="#top"
+          className="text-[13px] font-display font-semibold tracking-tight text-white"
+        >
           {localize(siteName, language)}
         </a>
 
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden md:flex gap-6">
           {navItems.map(({ href, label }) => (
             <a
               key={href}
               href={href}
-              className="text-sm font-medium text-ink-700 hover:text-accent-600 transition-colors"
+              className="text-xs tracking-tight text-white/80 hover:text-accent-dark transition-colors"
             >
               {label}
             </a>
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <div
             role="group"
             aria-label="language toggle"
-            className="flex gap-1 border border-ink-300 rounded-lg p-1"
+            className="flex gap-0.5 rounded-full bg-white/10 p-0.5"
           >
             <button
               type="button"
               onClick={() => changeLanguage('ko')}
               aria-pressed={language === 'ko'}
-              className={`px-3 py-1 rounded-md text-sm font-semibold transition-colors ${
+              className={`px-2 sm:px-2.5 py-1 rounded-full text-xs font-medium transition-colors active:scale-95 ${
                 language === 'ko'
-                  ? 'bg-accent-500 text-white'
-                  : 'text-ink-700 hover:bg-ink-100'
+                  ? 'bg-white text-ink-900'
+                  : 'text-white/70 hover:text-white'
               }`}
             >
-              한국어
+              <span className="sm:hidden">KO</span>
+              <span className="hidden sm:inline">한국어</span>
             </button>
             <button
               type="button"
               onClick={() => changeLanguage('en')}
               aria-pressed={language === 'en'}
-              className={`px-3 py-1 rounded-md text-sm font-semibold transition-colors ${
+              className={`px-2 sm:px-2.5 py-1 rounded-full text-xs font-medium transition-colors active:scale-95 ${
                 language === 'en'
-                  ? 'bg-accent-500 text-white'
-                  : 'text-ink-700 hover:bg-ink-100'
+                  ? 'bg-white text-ink-900'
+                  : 'text-white/70 hover:text-white'
               }`}
             >
-              English
+              <span className="sm:hidden">EN</span>
+              <span className="hidden sm:inline">English</span>
             </button>
           </div>
 
@@ -72,7 +77,7 @@ export default function Header({ siteName }) {
             onClick={() => setIsOpen((prev) => !prev)}
             aria-label="Toggle menu"
             aria-expanded={isOpen}
-            className="md:hidden text-2xl text-ink-800 leading-none"
+            className="md:hidden text-lg text-white leading-none px-1 shrink-0"
           >
             {isOpen ? '✕' : '☰'}
           </button>
