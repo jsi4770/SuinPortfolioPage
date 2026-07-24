@@ -41,7 +41,7 @@ export default function HomePage() {
         id="activities"
         tone="parchment"
       />
-      <About techStack={techStack} allItems={allItems} social={socialConfig} />
+      <About site={siteConfig} techStack={techStack} allItems={allItems} social={socialConfig} />
     </>
   );
 }

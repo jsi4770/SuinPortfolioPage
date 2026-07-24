@@ -28,14 +28,9 @@ export default function Hero({ site, social }) {
         <p className="text-xl md:text-lead text-ink-800 mb-3 max-w-2xl whitespace-pre-line">
           {localize(site.tagline, language)}
         </p>
-        <p className="text-base17 text-ink-500 max-w-2xl mb-3">
+        <p className="text-base17 text-ink-500 max-w-2xl mb-10">
           {localize(site.description, language)}
         </p>
-        {site.education && (
-          <p className="text-base17 text-ink-500 max-w-2xl mb-10">
-            {localize(site.education, language)}
-          </p>
-        )}
 
         <div className="flex flex-wrap gap-3">
           {social?.email && (

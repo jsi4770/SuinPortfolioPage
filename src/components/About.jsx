@@ -2,11 +2,12 @@
 
 import { useLanguage } from '@/contexts/LanguageContext';
 import { groupSkillsByCategory } from '@/utils/constants';
+import { localize } from '@/utils/localize';
 import SkillBadge from './SkillBadge';
 import SocialLinks from './SocialLinks';
 
-export default function About({ techStack, allItems, social }) {
-  const { t } = useLanguage();
+export default function About({ site, techStack, allItems, social }) {
+  const { language, t } = useLanguage();
 
   const relatedByTech = (tech) => allItems.filter((item) => item.tech_stack?.includes(tech));
   const skillGroups = groupSkillsByCategory(techStack);
@@ -18,9 +19,15 @@ export default function About({ techStack, allItems, social }) {
           {t('sections.about')}
         </h2>
 
-        <p className="text-base17 text-ink-700 max-w-2xl mb-10">
+        <p className="text-base17 text-ink-700 max-w-2xl mb-3">
           {t('about.bio')}
         </p>
+
+        {site?.education && (
+          <p className="text-base17 text-ink-500 max-w-2xl mb-10">
+            {localize(site.education, language)}
+          </p>
+        )}
 
         {skillGroups.length > 0 && (
           <div className="mb-10">
