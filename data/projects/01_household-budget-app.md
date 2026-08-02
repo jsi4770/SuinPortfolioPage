@@ -71,3 +71,19 @@ A nudge-based AI financial coaching ledger. It auto-recognizes expenses via rece
 <a href="/images/projects/osori-poster-en.png" target="_blank" rel="noopener noreferrer">
   <img src="/images/projects/osori-poster-en.png" alt="OSORI project poster (click to view full size)">
 </a>
+
+## 예측 모델 성능 검증
+"다음 달 지출 예측"은 가중 선형회귀로 구현했지만, 예측값을 저장·비교하는 로그가 없어 실제 정확도를 알 수 없었습니다. 과거 거래 데이터를 재생해 그 시점의 모델이 무엇을 예측했을지 복원하는 백테스트를 직접 구현해 MAE·MAPE를 측정했습니다.
+
+그 결과, 데이터가 적을 때 회귀가 이번 달 진행분(런레이트 추정치)의 작은 흔들림에도 다음 달 예측이 크게 출렁이는 문제를 확인했습니다(MAPE 57%). 원인을 분석해 "최근 N개월 평균" 방식으로 교체했고, 같은 백테스트 기준으로 MAPE를 15.6%까지 낮춘 뒤 실제 반영했습니다.
+
+복잡한 모델이 항상 더 정확한 것은 아니며, 측정 없이는 어떤 모델이 나은지 알 수 없다는 것을 확인한 경험입니다.
+
+---
+
+## Prediction Model Performance Verification
+The "next month's spending" forecast was originally built with weighted linear regression, but predictions were never logged against actual outcomes, so real-world accuracy was unknown. I built a backtesting script that replays historical transactions to reconstruct what the model would have predicted at past points in time, then measured MAE and MAPE.
+
+The results showed that with limited data, the regression's forecast swung wildly whenever the current month's partial run-rate estimate shifted even slightly (MAPE 57%). After diagnosing the cause, I replaced it with a simple historical-average model — the same backtest showed MAPE dropping to 15.6% — and shipped the change.
+
+A more complex model isn't always more accurate, and there's no way to know which one is better without measuring it.
