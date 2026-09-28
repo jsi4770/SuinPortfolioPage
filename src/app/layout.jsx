@@ -1,7 +1,4 @@
 import localFont from 'next/font/local';
-import { LanguageProvider } from '@/contexts/LanguageContext';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import siteConfig from '../../data/config/site.json';
 import './globals.css';
 
@@ -13,19 +10,16 @@ const pretendard = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://suincredible.vercel.app'),
   title: siteConfig.title.ko,
   description: siteConfig.description.ko,
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ko" className={pretendard.variable}>
+    <html lang="en" className={pretendard.variable}>
       <body className="font-body bg-white text-ink-800 antialiased">
-        <LanguageProvider>
-          <Header siteName={siteConfig.name} />
-          <main>{children}</main>
-          <Footer />
-        </LanguageProvider>
+        {children}
       </body>
     </html>
   );

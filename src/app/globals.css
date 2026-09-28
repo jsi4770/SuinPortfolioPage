@@ -19,16 +19,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  padding-top: 2.75rem;
-}
-
-@media (min-width: 768px) {
-  body {
-    padding-top: 3rem;
-  }
-}
-
 @layer utilities {
   .break-words {
     overflow-wrap: break-word;

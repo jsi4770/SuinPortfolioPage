@@ -1,0 +1,45 @@
+{
+  "name": "Suin Cho",
+  "initials": "SC",
+  "title": "Data Analyst | AI & Big Data",
+  "tagline": "Exploring the context behind the numbers through data and AI.",
+  "professional": [
+    {
+      "id": "resume-en",
+      "label": "English Resume",
+      "sublabel": "PDF",
+      "href": "https://drive.google.com/file/d/109LQQS2D8aGkf5_rG0tBhZGX41F8xeYo/view?usp=sharing",
+      "icon": "resume"
+    },
+    {
+      "id": "resume-ko",
+      "label": "Korean Resume",
+      "sublabel": "국문 이력서 PDF",
+      "href": "https://drive.google.com/file/d/1s9VHFSkT79isRxfaWtDwWUouQxwGBJ9c/view?usp=sharing",
+      "icon": "resume"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "sublabel": "Professional profile",
+      "href": "https://www.linkedin.com/in/suin-cho/",
+      "icon": "linkedin"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "sublabel": "Projects & code",
+      "href": "https://github.com/jsi4770",
+      "icon": "github"
+    }
+  ],
+  "personal": [
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "sublabel": "@suincredible_",
+      "href": "https://www.instagram.com/suincredible_?stkn=MTZ6cnZkcXZyMXJhMQ%3D%3D&utm_source=qr",
+      "icon": "instagram"
+    }
+  ]
+}
