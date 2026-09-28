@@ -60,7 +60,7 @@ export default function CardPage() {
             </h2>
             <div className="flex flex-col gap-2.5">
               {card.personal.map((item) => (
-                <CardLinkButton key={item.id} {...item} emphasis />
+                <CardLinkButton key={item.id} {...item} />
               ))}
             </div>
           </nav>

@@ -1,6 +1,6 @@
 import { CARD_ICONS, ExternalLinkIcon } from './Icons';
 
-export default function CardLinkButton({ label, sublabel, href, icon, emphasis = false }) {
+export default function CardLinkButton({ label, sublabel, href, icon }) {
   const Icon = CARD_ICONS[icon];
 
   return (
@@ -8,17 +8,9 @@ export default function CardLinkButton({ label, sublabel, href, icon, emphasis =
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`group flex items-center gap-3.5 rounded-apple border px-4 py-3.5 transition-all duration-150 active:scale-[0.98] ${
-        emphasis
-          ? 'border-accent-200 bg-accent-50 hover:border-accent-400 hover:bg-accent-100'
-          : 'border-hairline bg-white hover:border-ink-300 hover:bg-parchment'
-      }`}
+      className="group flex items-center gap-3.5 rounded-apple border border-hairline bg-white px-4 py-3.5 transition-all duration-150 hover:border-ink-300 hover:bg-parchment active:scale-[0.98]"
     >
-      <span
-        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full ${
-          emphasis ? 'bg-accent-500 text-white' : 'bg-parchment text-ink-800'
-        }`}
-      >
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-parchment text-ink-800">
         {Icon ? <Icon className="h-[18px] w-[18px]" /> : null}
       </span>
 
